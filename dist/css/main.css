@@ -5103,6 +5103,7 @@ h2 {
   max-height: 700px;
   opacity: 0.99;
   background-color: #eff0f2;
+  padding-bottom: 40px;
 }
 
 .header .header__top__menu {
@@ -5330,7 +5331,7 @@ h2 {
 .porfolio__content .port__boss .img__port img {
   width: 100%;
   margin-bottom: 20px;
-  height: 47vh;
+  height: 300px;
 }
 
 .services {
@@ -5685,7 +5686,7 @@ h2 {
 }
 
 .team__wrap ul li img {
-  height: 47vh;
+  max-height: 450px;
   width: 100%;
 }
 
@@ -5727,7 +5728,7 @@ h2 {
   top: -8px;
   height: 89%;
   right: 0;
-  left: 20%;
+  left: 25%;
 }
 
 .say__wrap__first .say__fon {
@@ -5858,11 +5859,10 @@ h2 {
   text-align: center;
   cursor: pointer;
   margin-top: 10px;
-  margin-right: 10px;
 }
 
 .owl-carousel .owl-nav .owl-prev {
-  left: 0;
+  left: 1.5%;
   top: 55%;
 }
 
@@ -6378,13 +6378,17 @@ h2 {
   .owl-carousel .owl-nav .owl-prev {
     top: 100%;
     bottom: -54px;
-    left: 40%;
+    left: 30%;
   }
 
   .owl-carousel .owl-nav .owl-next {
     top: 100%;
     bottom: -54px;
-    right: 40%;
+    right: 25%;
+  }
+
+  .header .header__hello {
+    padding-top: 140px;
   }
 }
 
@@ -6404,7 +6408,7 @@ h2 {
   /**/
 
   .header .header__hello {
-    padding-top: 40px;
+    padding-top: 100px;
   }
 }
 
